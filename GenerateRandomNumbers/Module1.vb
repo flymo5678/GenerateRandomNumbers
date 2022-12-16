@@ -3,7 +3,7 @@
     Sub Main()
         Dim rand As New Random ' plants the seed to generate random numbers
 
-        For i = 1 To 100
+        For i = 1 To 10000
             Dim n As Integer
             n = rand.Next(1, 100) ' generate a number from 1 to 99
             Console.Write(n & " ")
